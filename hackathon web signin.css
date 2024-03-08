@@ -1,0 +1,63 @@
+body{
+      font-family: sans-serif;
+      margin: 0;
+      padding: 40px;
+      background-color: #1a1a1a;
+      background-repeat: no-repeat;
+      background-size: cover;
+      align-items: center;
+      text-align: center;
+}
+.sign-in{
+      height: 70%;
+      width: 40%;
+      align-items:center ;
+      text-align: center;
+
+      justify-content: center;
+      background-color:rgb(14, 15, 15);
+      border: 2px solid #329393;
+      margin: 10px 20px 10px 20px;
+      border-radius: 20px;
+      box-shadow: 0px 0px 10px #1ae4cd;
+      transition: all 0.4s;
+}
+.title{
+      text-decoration: solid;
+      text-shadow:0cqmax ;
+      text-decoration-color: aliceblue;
+      -webkit-text-fill-color: aliceblue;
+
+}
+.details{
+      text-align:justify;
+      -webkit-text-fill-color: rgb(47, 123, 189);
+      margin: 0;
+      padding-right: 55px;
+      margin-bottom: 10px;
+
+}
+.sub-buttons {
+      cursor: pointer;
+      width: 25%;
+      padding: 15px;
+      border: none;
+      border-radius: 15px;
+      color: white;
+      background-color: #00aa00;
+      font-size: medium;
+      transition: all 0.4s;
+  }
+  #user-name,#first-Name,#Surname,#age,#gender,#phone-number,#email,#password {
+      border: 2px solid #4a4f4f;
+      width: 80%;
+      padding: 20px;
+      margin: 10px 20px 30px 20px;
+      border-radius: 20px;
+      transition: all 0.4s;
+      ;
+  }
+  label {
+      color: white;
+      margin: 10px 30px;
+  }
